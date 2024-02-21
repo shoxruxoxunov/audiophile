@@ -89,7 +89,7 @@ function Home() {
                 Upgrade to premium speakers that are <br /> phenomenally built
                 to deliver truly remarkable sound.
               </p>
-              <button className=" btn md:btn-md lg:btn-lg bg-[#4C4C4C] text-white">
+              <button className=" btn uppercase md:btn-md lg:btn-lg bg-[#4C4C4C] text-white">
                 See Product
               </button>
             </div>
@@ -102,14 +102,14 @@ function Home() {
             <h2 className="text-[#000000] text-[28px] font-bold w-[202px] mb-[32px]">
               ZX7 SPEAKER
             </h2>
-            <button className="btn bg-[#000000] text-white md:btn-md lg:btn-lg">
+            <button className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg">
               See Product
             </button>
           </div>
         </div>
       </section>
       <section className="mb-[200px]">
-        <div className="container  flex justify-between  gap-[50px] w-full ">
+        <div className="container  flex items-center flex-col md:flex-row  gap-[50px] w-full ">
           <img
             className="rounded-[8px] lg:w-[540px] w-[320px] md:w-[339px] "
             src="./assets/home/mobile/image-earphones-yx1.jpg"
@@ -124,7 +124,7 @@ function Home() {
               >
                 YX1 EARPHONES
               </h2>
-              <button className="btn bg-[#000000] text-white md:btn-md lg:btn-lg">
+              <button className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg">
                 See Product
               </button>
             </div>
@@ -132,9 +132,9 @@ function Home() {
         </div>
       </section>
       <section className="bg-white">
-        <div className="container">
-          <div>
-            <h2 className="text-[#000000]  md:w-[445px] font-bold text-[40px]">
+        <div className="container flex flex-col-reverse md:flex-row md:justify-between">
+          <div className="w-[420px]">
+            <h2 className="text-[#000000] uppercase  font-bold text-[40px]">
               Bringing you the <span className="text-[#D87D4A]">best</span>{" "}
               audio gear
             </h2>
