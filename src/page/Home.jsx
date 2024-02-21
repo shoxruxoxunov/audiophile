@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Brining from "../components/Brining";
 
 function Home() {
   return (
@@ -116,8 +117,8 @@ function Home() {
             alt=""
           />
 
-          <div className="bg-[#F1F1F1] lg:w-[540px] w-[320px] md:w-[339px] h-[320px]   ">
-            <div className="flex flex-col items-center">
+          <div className="bg-[#F1F1F1] rounded-[8px] w-[320px] md:w-[520px] overflow-hidden md:h-[320px] ">
+            <div className="flex flex-col items-center ">
               <h2
                 className="text-[#000000] text-[28px] font-bold w-[202px] mb-[32px] pt-[20px] text-center
               "
@@ -131,32 +132,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white">
-        <div className="container flex flex-col-reverse md:flex-row md:justify-between">
-          <div className="w-[420px]">
-            <h2 className="text-[#000000] uppercase  font-bold text-[40px]">
-              Bringing you the <span className="text-[#D87D4A]">best</span>{" "}
-              audio gear
-            </h2>
-            <p className="md:w-[445px] font-medium text-[15px] text-black opacity-[50%]">
-              Located at the heart of New York City, Audiophile is the premier
-              store for high end headphones, earphones, speakers, and audio
-              accessories. We have a large showroom and luxury demonstration
-              rooms available for you to browse and experience a wide range of
-              our products. Stop by our store to meet some of the fantastic
-              people who make Audiophile the best place to buy your portable
-              audio equipment.
-            </p>
-          </div>
-          <div className="">
-            <img
-              className="rounded-[8px] relative top[50px] right-[10px]"
-              src="./assets/shared/desktop/image-best-gear.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
+      <Brining />
     </>
   );
 }

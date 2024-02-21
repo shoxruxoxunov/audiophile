@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
-import Detail from "./page/Detail";
+import Datial from "./page/Datial";
+import Category from "./page/Category";
 // page
 import Home from "./page/Home";
 
@@ -15,8 +16,12 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/detail/:name",
-          element: <Detail />,
+          path: "/gategory/:slug",
+          element: <Category />,
+        },
+        {
+          path: "/detail/:slug",
+          element: <Datial />,
         },
       ],
     },
