@@ -19,7 +19,7 @@ function Footer() {
             </Link>
           </div>
           <nav className="md:pt-[20px] md:ml-[50px]">
-            <ul className="md:flex  md:gap-8">
+            <ul className="md:flex  md:gap-[120px]">
               <li className="mb-[16px] text-center  ">
                 <Link
                   className=" md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  w-[44px] md:w-[81px] lg:w-[44px] font-light"
@@ -29,17 +29,35 @@ function Footer() {
                 </Link>
               </li>
               <li className="mb-[16px] text-center ">
-                <Link className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  text-center  w-[44px] md:w-[81px] lg:w-[44px]">
+                <Link
+                  to="/headphones"
+                  onClick={() =>
+                    window.scrollTo({ top: top, behavior: "smooth" })
+                  }
+                  className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  text-center  w-[44px] md:w-[81px] lg:w-[44px]"
+                >
                   HEADPHONES
                 </Link>
               </li>
               <li className="mb-[16px] text-center ">
-                <Link className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  w-[44px] md:w-[81px] lg:w-[44px]">
+                <Link
+                  onClick={() =>
+                    window.scrollTo({ top: top, behavior: "smooth" })
+                  }
+                  to="/categoryinfo"
+                  className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  w-[44px] md:w-[81px] lg:w-[44px]"
+                >
                   SPEAKERS
                 </Link>
               </li>
               <li className="text-center ">
-                <Link className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  w-[44px] md:w-[81px] lg:w-[44px]">
+                <Link
+                  onClick={() =>
+                    window.scrollTo({ top: top, behavior: "smooth" })
+                  }
+                  to="/categoryphones"
+                  className="font-light md:font-bold lg:font-bold text-sm md:text-lg lg:text-xl text-[#FFFFFF]  w-[44px] md:w-[81px] lg:w-[44px]"
+                >
                   EARPHONES
                 </Link>
               </li>

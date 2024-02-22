@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Brining from "../components/Brining";
-
-function Category() {
+function CategoryEorphones() {
   return (
     <>
       <section className="md:pt-[160px] md:mb-[160px]">
@@ -9,7 +8,7 @@ function Category() {
           <div class="">
             <img
               className="w-[540px] h-[560px] rounded-md"
-              src="/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+              src="/assets/product-yx1-earphones/desktop/image-product.jpg"
               alt=""
             />
           </div>
@@ -18,69 +17,16 @@ function Category() {
               NEW PRODUCT
             </h3>
             <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
-              XX99 Mark II Headphones
+              YX1 WIRELESS EARPHONES
             </h1>
             <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
+              Tailor your listening experience with bespoke dynamic drivers from
+              the new YX1 Wireless Earphones. Enjoy incredible high-fidelity
+              sound even in noisy environments with its active noise
+              cancellation feature.
             </p>
             <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               to="/detail/xx99-mark-two-headphones"
-              className=" btn md:btn-md bg-[#FBAF85] text-white"
-            >
-              See Product
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section className="md:mb-[160px]">
-        <div className="container  md:flex md:flex-row-reverse md:items-center md:gap-[125px]">
-          <div class="">
-            <img
-              className="w-[540px] h-[560px] rounded-md"
-              src="/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
-              XX99 Mark I Headphones
-            </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
-            </p>
-            <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx99-mar-headphonesk-one"
-              className=" btn md:btn-md bg-[#FBAF85] text-white"
-            >
-              See Product
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section className="md:mb-[160px]">
-        <div className="container  md:flex  md:items-center md:gap-[125px]">
-          <div class="">
-            <img
-              className="w-[540px] h-[560px] rounded-md"
-              src="/assets/shared/desktop/image-xx59-headphones.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
-              XX59 Headphones
-            </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
-              Enjoy your audio almost anywhere and customize it to your specific
-              tastes with the XX59 headphones. The stylish yet durable versatile
-              wireless headset is a brilliant companion at home or on the move.
-            </p>
-            <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx59-headphones"
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
               See Product
@@ -114,7 +60,7 @@ function Category() {
             />
             <div className="text-center pb-[24px]">
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
-                HEADPHONES
+              SPEAKERS
               </p>
               <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })} className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
                 Shop
@@ -129,7 +75,7 @@ function Category() {
             />
             <div className="text-center pb-[24px]">
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
-                HEADPHONES
+              EARPHONES
               </p>
               <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })} className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
                 Shop
@@ -143,4 +89,4 @@ function Category() {
   );
 }
 
-export default Category;
+export default CategoryEorphones;

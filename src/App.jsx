@@ -5,6 +5,8 @@ import Category from "./page/Category";
 
 // page
 import Home from "./page/Home";
+import CategoryInfo from "./page/CategoryInfo";
+import CategoryEorphones from "./page/CategoryEorphones";
 
 function App() {
   const routes = createBrowserRouter([
@@ -17,12 +19,20 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/gategory/:slug",
+          path: "/headphones",
           element: <Category />,
         },
         {
           path: "/detail/:slug",
           element: <Datial />,
+        },
+        {
+          path: "/categoryinfo",
+          element: <CategoryInfo />,
+        },
+        {
+          path: "/categoryphones",
+          element: <CategoryEorphones />,
         },
       ],
     },

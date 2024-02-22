@@ -30,6 +30,7 @@ function Navbar() {
         </label>
         <div>
           <Link
+            onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
             className="lg:w-[143px] lg:h-[25px] font-bold text-lg md:text-xl lg:text-3xl text-[#FFFFFF] "
             to="/"
           >
@@ -39,22 +40,46 @@ function Navbar() {
         <nav className="hidden lg:block">
           <ul className="flex gap-[34px] ">
             <li className="">
-              <Link className="lg:w-[44px] font-bold text-[13px] text-white ">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/"
+                className="lg:w-[44px] font-bold text-[13px] text-white "
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link className="lg:w-[44px] font-bold text-[13px] text-white  ">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/headphones"
+                className="lg:w-[44px] font-bold text-[13px] text-white  "
+              >
                 HEADPHONES
               </Link>
             </li>
             <li>
-              <Link className="lg:w-[44px] font-bold text-[13px] text-white ">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/categoryinfo"
+                className="lg:w-[44px] font-bold text-[13px] text-white "
+              >
                 SPEAKERS
               </Link>
             </li>
             <li>
-              <Link className="lg:w-[44px] font-bold text-[13px] text-white ">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/categoryphones"
+                className="lg:w-[44px] font-bold text-[13px] text-white "
+              >
                 EARPHONES
               </Link>
             </li>

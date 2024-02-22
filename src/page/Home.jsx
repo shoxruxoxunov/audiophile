@@ -18,6 +18,7 @@ function Home() {
               made for the passionate music enthusiast.
             </p>
             <Link
+              onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               to="/detail/xx99-mark-two-headphones"
               className="btn md:btn-md lg:btn-lg bg-[#D87D4A] text-white mb-[158px] lg:ml-[80px] md:ml-0"
             >
@@ -39,7 +40,13 @@ function Home() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] ">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/headphones"
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] "
+              >
                 Shop
               </Link>
             </div>
@@ -53,9 +60,15 @@ function Home() {
             />
             <div className="text-center pb-[24px]">
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
-                HEADPHONES
+                SPEAKERS
               </p>
-              <Link className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/categoryinfo"
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]"
+              >
                 Shop
               </Link>
             </div>
@@ -68,9 +81,15 @@ function Home() {
             />
             <div className="text-center pb-[24px]">
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
-                HEADPHONES
+                EARPHONES
               </p>
-              <Link className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
+              <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                to="/categoryphones"
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]"
+              >
                 Shop
               </Link>
             </div>
@@ -94,6 +113,9 @@ function Home() {
                 to deliver truly remarkable sound.
               </p>
               <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
                 to="/detail/zx9-speaker"
                 className=" btn uppercase md:btn-md lg:btn-lg bg-[#4C4C4C] text-white"
               >
@@ -110,6 +132,7 @@ function Home() {
               ZX7 SPEAKER
             </h2>
             <Link
+              onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               to="/detail/zx7-speaker"
               className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg"
             >
@@ -135,6 +158,9 @@ function Home() {
                 YX1 EARPHONES
               </h2>
               <Link
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
                 to="/detail/yx1-earphones"
                 className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg"
               >
