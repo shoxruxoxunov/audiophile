@@ -25,7 +25,8 @@ function Category() {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
+            <Link
+              onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               to="/detail/xx99-mark-two-headphones"
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
@@ -52,8 +53,9 @@ function Category() {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx99-mar-headphonesk-one"
+            <Link
+              to="/detail/xx99-mark-one-headphones"
+              onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
               See Product
@@ -79,8 +81,9 @@ function Category() {
               tastes with the XX59 headphones. The stylish yet durable versatile
               wireless headset is a brilliant companion at home or on the move.
             </p>
-            <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx59-headphones"
+            <Link
+              to={`/detail/${"xx59-headphones"}`}
+              onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
               See Product
@@ -100,7 +103,13 @@ function Category() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })} className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] ">
+              <Link
+                to="/headphones"
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] "
+              >
                 Shop
               </Link>
             </div>
@@ -116,7 +125,13 @@ function Category() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })} className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
+              <Link
+                to="/categoryinfo"
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]"
+              >
                 Shop
               </Link>
             </div>
@@ -131,7 +146,13 @@ function Category() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link onClick={() => window.scrollTo({ top: top, behavior: "smooth" })} className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]">
+              <Link
+                to="/categoryphones"
+                onClick={() =>
+                  window.scrollTo({ top: top, behavior: "smooth" })
+                }
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%]"
+              >
                 Shop
               </Link>
             </div>

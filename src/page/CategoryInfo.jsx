@@ -26,7 +26,7 @@ function CategoryInfo() {
             </p>
             <Link
               onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx99-mark-two-headphones"
+              to="/detail/zx9-speaker"
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
               See Product
@@ -54,7 +54,7 @@ function CategoryInfo() {
             </p>
             <Link
               onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
-              to="/detail/xx99-mar-headphonesk-one"
+              to="/detail/zx7-speaker"
               className=" btn md:btn-md bg-[#FBAF85] text-white"
             >
               See Product
@@ -75,6 +75,7 @@ function CategoryInfo() {
                 HEADPHONES
               </p>
               <Link
+                to="/headphones"
                 onClick={() =>
                   window.scrollTo({ top: top, behavior: "smooth" })
                 }
@@ -96,6 +97,7 @@ function CategoryInfo() {
                 SPEAKERS
               </p>
               <Link
+                to="/categoryinfo"
                 onClick={() =>
                   window.scrollTo({ top: top, behavior: "smooth" })
                 }
@@ -116,6 +118,7 @@ function CategoryInfo() {
                 EARPHONES
               </p>
               <Link
+                to="/categoryphones"
                 onClick={() =>
                   window.scrollTo({ top: top, behavior: "smooth" })
                 }
