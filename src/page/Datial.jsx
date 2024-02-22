@@ -1,22 +1,13 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Brining from "../components/Brining";
-
-async function getData(url) {
-  const req = await fetch(url);
-  const data = await req.json();
-  return data;
-}
-
+import { useFetch } from "../hooks/useFetch";
+import { useState } from "react";
 async function Datial() {
-  const { slug } = useParams();
-
-  const data = await getData("http://localhost:3000/data?slug" + slug.name);
-  console.log(slug);
-  console.log(data);
-
+  const [url, SetUrl] = useState("http://localhost:3000/data?slug");
+  const { slug } = useFetch(url);
+  console.log(url);
   return (
     <>
-      
       <section className="md:pt-[160px] md:mb-[160px]">
         <div className="container  md:flex md:items-center md:gap-[125px]">
           <div class="">
@@ -28,7 +19,7 @@ async function Datial() {
           </div>
           <div>
             <h3 className="font-medium text-[14px] text-[#D87D4A] ">
-              NEW PRODUCT
+              NEW PRODUCT {slag}
             </h3>
             <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
               XX99 Mark II Headphones
