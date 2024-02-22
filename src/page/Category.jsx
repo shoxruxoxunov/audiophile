@@ -5,7 +5,6 @@ import Brining from "../components/Brining";
 // }
 async function Category() {
   const { slug } = useParams();
- 
 
   // Fetch('http://localhost:3000/data/?slug')
 
@@ -32,7 +31,10 @@ async function Category() {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <Link className=" btn md:btn-md bg-[#FBAF85] text-white">
+            <Link
+              to="/detail/xx99-mark-two-headphones"
+              className=" btn md:btn-md bg-[#FBAF85] text-white"
+            >
               See Product
             </Link>
           </div>
@@ -56,7 +58,10 @@ async function Category() {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <Link className=" btn md:btn-md bg-[#FBAF85] text-white">
+            <Link
+              to="/detail/xx99-mar-headphonesk-one"
+              className=" btn md:btn-md bg-[#FBAF85] text-white"
+            >
               See Product
             </Link>
           </div>
@@ -80,7 +85,10 @@ async function Category() {
               tastes with the XX59 headphones. The stylish yet durable versatile
               wireless headset is a brilliant companion at home or on the move.
             </p>
-            <Link className=" btn md:btn-md bg-[#FBAF85] text-white">
+            <Link
+              to="/detail/xx59-headphones"
+              className=" btn md:btn-md bg-[#FBAF85] text-white"
+            >
               See Product
             </Link>
           </div>

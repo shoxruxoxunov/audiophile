@@ -17,9 +17,12 @@ function Home() {
               Experience natural, lifelike audio and exceptional build quality
               made for the passionate music enthusiast.
             </p>
-            <button className="btn md:btn-md lg:btn-lg bg-[#D87D4A] text-white mb-[158px] lg:ml-[80px] md:ml-0">
+            <Link
+              to="/detail/xx99-mark-two-headphones"
+              className="btn md:btn-md lg:btn-lg bg-[#D87D4A] text-white mb-[158px] lg:ml-[80px] md:ml-0"
+            >
               See Product
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -36,10 +39,7 @@ function Home() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link
-                to="/detail/xx99-mark-one-headphones"
-                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] "
-              >
+              <Link className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] ">
                 Shop
               </Link>
             </div>
@@ -93,9 +93,12 @@ function Home() {
                 Upgrade to premium speakers that are <br /> phenomenally built
                 to deliver truly remarkable sound.
               </p>
-              <button className=" btn uppercase md:btn-md lg:btn-lg bg-[#4C4C4C] text-white">
+              <Link
+                to="/detail/zx9-speaker"
+                className=" btn uppercase md:btn-md lg:btn-lg bg-[#4C4C4C] text-white"
+              >
                 See Product
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -106,9 +109,12 @@ function Home() {
             <h2 className="text-[#000000] text-[28px] font-bold w-[202px] mb-[32px]">
               ZX7 SPEAKER
             </h2>
-            <button className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg">
+            <Link
+              to="/detail/zx7-speaker"
+              className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg"
+            >
               See Product
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -128,9 +134,12 @@ function Home() {
               >
                 YX1 EARPHONES
               </h2>
-              <button className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg">
+              <Link
+                to="/detail/yx1-earphones"
+                className="btn uppercase bg-[#000000] text-white md:btn-md lg:btn-lg"
+              >
                 See Product
-              </button>
+              </Link>
             </div>
           </div>
         </div>
