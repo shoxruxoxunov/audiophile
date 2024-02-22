@@ -1,8 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Brining from "../components/Brining";
-function Datial() {
+
+async function getData(url) {
+  const req = await fetch(url);
+  const data = await req.json();
+  return data;
+}
+
+async function Datial() {
+  const { slug } = useParams();
+
+  const data = await getData("http://localhost:3000/data?slug" + slug.name);
+  console.log(slug);
+  console.log(data);
+
   return (
     <>
+      
       <section className="md:pt-[160px] md:mb-[160px]">
         <div className="container  md:flex md:items-center md:gap-[125px]">
           <div class="">
@@ -151,7 +165,7 @@ function Datial() {
               />
               <div className="md:flex md:flex-col md:items-center md:pt-[40px]">
                 <p className="md:w-[163px] font-bold text-[24px] text-[#000000] md:mb-[32px]">
-                  XX99 MARK I
+                  {/* XX99 MARK I */}
                 </p>
                 <Link className="btn md:btn-md bg-[#D87D4A] text-white">
                   See Product

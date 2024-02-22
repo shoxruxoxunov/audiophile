@@ -36,7 +36,10 @@ function Home() {
               <p className="font-bold text-[18px] lg:w-[133px] text-[#000000]">
                 HEADPHONES
               </p>
-              <Link className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] ">
+              <Link
+                to="/detail/xx99-mark-one-headphones"
+                className="font-bold text-[13px] lg:w-[39px] text-[#000000] opacity-[50%] "
+              >
                 Shop
               </Link>
             </div>
@@ -110,14 +113,14 @@ function Home() {
         </div>
       </section>
       <section className="mb-[200px]">
-        <div className="container  flex items-center flex-col md:flex-row  gap-[50px] w-full ">
+        <div className="container  flex items-center flex-col md:flex-row  gap-[30px] w-full ">
           <img
             className="rounded-[8px] lg:w-[540px] w-[320px] md:w-[339px] "
             src="./assets/home/mobile/image-earphones-yx1.jpg"
             alt=""
           />
 
-          <div className="bg-[#F1F1F1] rounded-[8px] w-[320px] md:w-[520px] overflow-hidden md:h-[320px] ">
+          <div className="bg-[#F1F1F1] rounded-[8px] w-[320px] md:w-[550px] overflow-hidden md:h-[330px] ">
             <div className="flex flex-col items-center ">
               <h2
                 className="text-[#000000] text-[28px] font-bold w-[202px] mb-[32px] pt-[20px] text-center
