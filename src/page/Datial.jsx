@@ -147,7 +147,7 @@ function Datial() {
                   </div>
                 </div>
               </section>
-              <section className="md:mb-[160px]">
+              <section className="md:mb-[161px]">
                 <div className="container">
                   <div className="md:flex md:justify-center md:mb-[64px]">
                     <h1 className=" mb-[80px] uppercase text-[#000000] text-[32px] md:w-[312px] font-bold md:text-center">
