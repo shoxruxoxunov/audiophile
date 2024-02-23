@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Brining from "../components/Brining";
+import Button from "../components/Button";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
               Experience natural, lifelike audio and exceptional build quality
               made for the passionate music enthusiast.
             </p>
+
             <Link
               onClick={() => window.scrollTo({ top: top, behavior: "smooth" })}
               to="/detail/xx99-mark-two-headphones"

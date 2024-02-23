@@ -4,23 +4,23 @@ import Brining from "../components/Brining";
 function Category() {
   return (
     <>
-      <section className="md:pt-[160px] md:mb-[160px]">
+      <section className="md:pt-[160px] md:mb-[160px] pt-[120px] mb-[60px]">
         <div className="container  md:flex md:items-center md:gap-[125px]">
           <div class="">
             <img
-              className="w-[540px] h-[560px] rounded-md"
+              className="md:w-[540px] w-[689px] h-[560px] rounded-md"
               src="/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
               alt=""
             />
           </div>
-          <div>
-            <h3 className="font-medium text-[14px] text-[#D87D4A] ">
+          <div className="flex flex-col items-center text-center">
+            <h3 className="font-medium text-[14px] text-[#D87D4A] pt-[32px] ">
               NEW PRODUCT
             </h3>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
+            <h1 className="md:font-bold font-normal text-[40px]  md:w-[445px] text-[#000000] md:mb-[32px]">
               XX99 Mark II Headphones
             </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
+            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] mb-[32px] md:mb-[24px]">
               The new XX99 Mark II headphones is the pinnacle of pristine audio.
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
@@ -35,20 +35,20 @@ function Category() {
           </div>
         </div>
       </section>
-      <section className="md:mb-[160px]">
+      <section className="md:mb-[160px] mb-[80px]">
         <div className="container  md:flex md:flex-row-reverse md:items-center md:gap-[125px]">
-          <div class="">
+          <div class="mb-[10px]">
             <img
-              className="w-[540px] h-[560px] rounded-md"
+              className="md:w-[540px] w-[689px] h-[560px] rounded-md"
               src="/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
               alt=""
             />
           </div>
-          <div>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
+          <div className="flex flex-col items-center text-center">
+            <h1 className="md:font-bold font-medium text-[40px] md:w-[445px] text-[#000000] md:mb-[32px] mb-[10px]">
               XX99 Mark I Headphones
             </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
+            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px] mb-[30px]">
               The new XX99 Mark II headphones is the pinnacle of pristine audio.
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
@@ -64,19 +64,19 @@ function Category() {
         </div>
       </section>
       <section className="md:mb-[160px]">
-        <div className="container  md:flex  md:items-center md:gap-[125px]">
+        <div className="container  md:flex  md:items-center md:gap-[125px] text-center">
           <div class="">
             <img
-              className="w-[540px] h-[560px] rounded-md"
+              className="mb-[10px] md:w-[540px] w-[689px] h-[560px] rounded-md"
               src="/assets/shared/desktop/image-xx59-headphones.jpg"
               alt=""
             />
           </div>
           <div>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
+            <h1 className=" mb-[20px] md:font-bold font-medium text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
               XX59 Headphones
             </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
+            <p className=" mb-[40px] md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
               Enjoy your audio almost anywhere and customize it to your specific
               tastes with the XX59 headphones. The stylish yet durable versatile
               wireless headset is a brilliant companion at home or on the move.
@@ -91,7 +91,7 @@ function Category() {
           </div>
         </div>
       </section>
-      <section className="bg-white  md:pb-[120px] ">
+      <section className="bg-white  md:pb-[120px] mb-[80px] ">
         <div className="container flex flex-col md:flex-row gap-[30px]">
           <div className=" flex flex-col items-center mt-[150px]  bg-[#F1F1F1] rounded-[8px] w-[350px] h-[204px] ">
             <img

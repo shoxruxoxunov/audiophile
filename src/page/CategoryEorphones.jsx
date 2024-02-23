@@ -3,23 +3,23 @@ import Brining from "../components/Brining";
 function CategoryEorphones() {
   return (
     <>
-      <section className="md:pt-[160px] md:mb-[160px]">
+      <section className="md:pt-[160px] md:mb-[160px] pt-[80px]">
         <div className="container  md:flex md:items-center md:gap-[125px]">
           <div class="">
             <img
-              className="w-[540px] h-[560px] rounded-md"
+              className=" w-[689px] md:w-[540px] h-[560px] rounded-md"
               src="/assets/product-yx1-earphones/desktop/image-product.jpg"
               alt=""
             />
           </div>
-          <div>
-            <h3 className="font-medium text-[14px] text-[#D87D4A] ">
+          <div className="flex items-center flex-col text-center">
+            <h3 className="pt-[40px] font-medium text-[14px] text-[#D87D4A] ">
               NEW PRODUCT
             </h3>
-            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px]">
+            <h1 className="font-bold text-[40px] md:w-[445px] text-[#000000] md:mb-[32px] mb-[20px]">
               YX1 WIRELESS EARPHONES
             </h1>
-            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px]">
+            <p className="md:w-[445px] text-[#000000] font-semibold text-[15px] opacity-[50%] md:mb-[24px] mb-[40px]">
               Tailor your listening experience with bespoke dynamic drivers from
               the new YX1 Wireless Earphones. Enjoy incredible high-fidelity
               sound even in noisy environments with its active noise
@@ -35,7 +35,7 @@ function CategoryEorphones() {
           </div>
         </div>
       </section>
-      <section className="bg-white  md:pb-[120px] ">
+      <section className="bg-white  md:pb-[120px] mb-[80px] ">
         <div className="container flex flex-col md:flex-row gap-[30px]">
           <div className=" flex flex-col items-center mt-[150px]  bg-[#F1F1F1] rounded-[8px] w-[350px] h-[204px] ">
             <img

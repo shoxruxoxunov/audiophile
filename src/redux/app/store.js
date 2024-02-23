@@ -1,5 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-export const store=configureStore({
-    reducers:{}
-})
+import basketReducer from "../features/bascet/bascet";
+
+export const store = configureStore({
+  reducer: {
+    basket: basketReducer,
+  },
+});
